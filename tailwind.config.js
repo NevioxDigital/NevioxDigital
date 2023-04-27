@@ -6,13 +6,16 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
-    },
+    extend: {},
+        colors:{
+          gold: "#D4AF37",
+          lblack: "#141414",
+        },
+        fontFamily: {
+          title: ["Bruno Ace SC", "cursive"],
+          body: ["Chathura", "sans-serif"],
+        },
   },
+    
   plugins: [],
 }
