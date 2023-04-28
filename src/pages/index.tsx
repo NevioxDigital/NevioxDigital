@@ -1,7 +1,11 @@
-
+import { About } from "@/components/landing-page/about";
+import {Welcome} from "../components/landing-page/welcome";
 
 export default function Home() {
   return (
-      <p className=" text-3xl font-semibold font-body">Use this font as a website body font</p>
+    <>
+      <Welcome/>
+      <About/>
+    </>
   )
 }

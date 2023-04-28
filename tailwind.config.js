@@ -9,7 +9,9 @@ module.exports = {
     extend: {},
         colors:{
           gold: "#D4AF37",
-          lblack: "#141414",
+          black: "#141414",
+          lblack: "#202020",
+          white: "#DEDEDE",
         },
         fontFamily: {
           title: ["Bruno Ace SC", "cursive"],
