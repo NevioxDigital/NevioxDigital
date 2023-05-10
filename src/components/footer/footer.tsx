@@ -10,7 +10,7 @@ export const Footer = () => {
         &copy; 2023 Neviox Digital
       </div>
       <div className="flex justify-center">
-        <Link href="https://www.instagram.com/https://instagram.com/nevioxdigital?igshid=NTc4MTIwNjQ2YQ==" className="mr-8">
+        <Link href="https://instagram.com/nevioxdigital?igshid=NTc4MTIwNjQ2YQ==" className="mr-8">
           <FontAwesomeIcon icon={faInstagram} />
         </Link>
         <Link href=" https://g.co/kgs/2cS9Hb" className="mx-12">
