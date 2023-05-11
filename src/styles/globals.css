@@ -5,10 +5,18 @@
 @tailwind components;
 @tailwind utilities;
 
-.img-about{
+.img-about {
   background-image: url(../public/images/responsivness.jpg);
   background-size: cover;
   border-radius: 30px;
+
+}
+
+@media (max-width: 768px) {
+  .img-about {
+    height: 400px; 
+
+  }
 }
 
 .form-style {
@@ -38,6 +46,11 @@
   text-transform: uppercase;
   font-display: swap;
   text-shadow: 0 0 50px #D4AF37;
+}
+@media (max-width: 1024px) {
+  .jt {
+    font-size: 2rem;
+  }
 }
 
 .jt__row {
@@ -155,7 +168,7 @@
   -ms-flex-preferred-size: calc(33.33333% - 30px);
   flex-basis: calc(33.33333% - 30px);
 
-  margin: 0 15px 30px;
+  margin: 0 0 30px;
 
   overflow: hidden;
 
@@ -163,7 +176,7 @@
 }
 .ag-courses-item_link {
   display: block;
-  padding: 30px 20px;
+  padding: 30px 10px;
   background-color: #141414;
 
   overflow: hidden;
