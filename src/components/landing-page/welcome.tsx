@@ -6,7 +6,7 @@ export const Welcome = () => {
       <div className="h-16 flex items-center justify-center text-white text-xl font-title font-bold ml-2 md:ml-16">
         <span className="border-b border-gold pb-1 mr-auto relative animate-slide-in overflow-hidden" id='welcome'>Welcome</span>
       </div>
-      <div className="max-w-lg text-center mx-auto mt-48 md:mt-20">
+      <div className="max-w-lg text-center mx-auto mt-48 md:mt-64">
         <h1 className="jt --debug font-title text-5xl md:text-6xl h-max-4">
           <span className="jt__row">
             <span className="jt__text">What you see is what you get</span>

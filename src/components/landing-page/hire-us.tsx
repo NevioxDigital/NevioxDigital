@@ -25,11 +25,11 @@ export const HireUs = () => {
   };
 
   return (
-    <div className=" flex-col h-screen  img-hire-us mt-64 md:mt-0">
+    <div className=" flex-col h-screen mt-64 md:mt-0">
     <div className="h-16 flex-1 items-center justify-center text-white text-xl font-title font-bold mr-auto ml-2 md:ml-16 mt-10 overflow-hidden">
       <span className="border-b border-gold pb-1 relative animate-slide-in" id='hire'>Hire us</span>
     </div>
-    <div className="justify-center items-center ml-auto mt-24  form-style">
+    <div className="justify-center items-center ml-auto mt-24  form-style img-hire-us">
       <form
         onSubmit={handleSubmit}
         className="flex flex-col items-center text-gold"

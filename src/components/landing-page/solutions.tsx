@@ -8,12 +8,12 @@ export const Solution = () => {
         <span className="border-b border-gold pb-1" id='solutions'>Solutions</span>
       </div>
       <div className="flex-1 flex items-start my-32 md:my-64 md:ml-0">
-        <div className="flex flex-col md:flex-row">
+        <div className="flex flex-col md:flex-row my-32 md:my-64 mx-4">
           <SolutionCard title="Web Applications" description="Establish a strong online presence, showcase products or services and grow business"/>
-          <div className='mt-16 md:ml-8'>
+          <div className='md:mt-16 md:ml-8'>
             <SolutionCard title="Mobile Applications" description="Reach a wider audience, improve efficiency, and enhance overall user experience" />
           </div>
-          <div className='mt-16 md:ml-8 '>
+          <div className='md:ml-8 '>
             <SolutionCard title="Digital Marketing" description="Engage with target audience, build brand awareness or increase website traffic" />
           </div>
         </div>
