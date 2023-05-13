@@ -20,10 +20,13 @@ export const Footer = () => {
         >
           <FontAwesomeIcon icon={faInstagram} color="#000" />
         </Link>
-        <Link href=" https:/g.co/kgs/2cS9Hb" className="md:mx-12 mx-3 p-4">
+        <Link href="https:/g.co/kgs/2cS9Hb" className="md:mx-12 mx-3 p-4">
           <FontAwesomeIcon icon={faGoogle} color="#000" />
         </Link>
-        <Link href="https:/github.com/sacredzero" className="md:ml-8 ml-2 p-4">
+        <Link
+          href="https:/github.com/NevioxDigital"
+          className="md:ml-8 ml-2 p-4"
+        >
           <FontAwesomeIcon icon={faGithub} color="#000" />
         </Link>
       </div>
