@@ -5,7 +5,7 @@
 <h2 align="center">Fusion of Software & Design</h1>
 
 <p align="center">
- Neviox Digital is your trusted innovation partner for transforming real estate and charters. We leverage AI and virtual tour technology to deliver premium digital experiences that drive engagement, growth, and advanced AI analytics.
+We engineer high-performance software, deploy intelligent AI workforces, and build immersive 3D digital twins. Partner with us to modernize your business infrastructure. Get a quote today.
 </p>
 
 <p align="center">
